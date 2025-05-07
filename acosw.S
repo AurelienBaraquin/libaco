@@ -190,3 +190,5 @@ aco_funcp_protector_asm:
 #else
     #error "platform not support"
 #endif
+
+.section .note.GNU-stack,"",@progbits
